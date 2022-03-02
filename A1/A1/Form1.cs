@@ -24,9 +24,7 @@ namespace A1
 
             myConnection = new OleDbConnection(connectString);
 
-            // открываем соединение с БД
             myConnection.Open();
-
 
             InitializeComponent();
         }
