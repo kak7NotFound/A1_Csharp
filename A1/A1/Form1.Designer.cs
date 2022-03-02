@@ -45,6 +45,7 @@
             this.button5.TabIndex = 9;
             this.button5.Text = "delete";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -54,6 +55,7 @@
             this.button4.TabIndex = 8;
             this.button4.Text = "update";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -63,6 +65,7 @@
             this.button3.TabIndex = 7;
             this.button3.Text = "insert";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -72,6 +75,7 @@
             this.button2.TabIndex = 6;
             this.button2.Text = "select 2";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -114,6 +118,7 @@
             this.Name = "Form1";
             this.ShowIcon = false;
             this.Text = "Form1";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
